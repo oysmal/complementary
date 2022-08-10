@@ -1,0 +1,21 @@
+{
+    "name": "rxjs-driven-spa-poc",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html",
+        "test": "echo \"This template does not include a test runner by default.\" && exit 1",
+        "format": "prettier --write \"src/**/*.{ts,js}\"",
+        "lint": "prettier --check \"src/**/*.{ts,js}\"",
+        "gql-codegen": "graphql-codegen --config codegen.yml"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "parcel": "^2.7.0",
+        "parcel-plugin-bundle-visualiser": "^1.2.0",
+        "prettier": "^2.7.1",
+        "typescript": "^4.7.4"
+    }
+}
